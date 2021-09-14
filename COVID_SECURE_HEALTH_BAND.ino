@@ -8,9 +8,9 @@
 #include <BlynkSimpleEsp8266.h>
 #define REPORTING_PERIOD_MS     1000
 
-const char* auth = "f8PclE_A5iTtZ9PnlPYu12TpAB2Ga5W1";             
-const char* ssid = "Vaisakh";                                   
-const char* password = "vaisakhvnair";
+const char* auth = "f8PclE_A5iTtZ9PnYPYu12TpAB2GaHG1";             
+const char* ssid = "XXXXXXX";                                   
+const char* password = "XXXXXXX";
 
 
 PulseOximeter pox;
@@ -25,9 +25,9 @@ float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
 
 WiFiClient client;
 
-unsigned long myChannelNumber = 1238231; //Your Channel Number (Without Brackets)
+unsigned long myChannelNumber = 11111111; //Your Channel Number (Without Brackets)
 
-const char * myWriteAPIKey = "T6A2ZID1UH9PHBQC"; //Your Write API Key
+const char * myWriteAPIKey = "TTTTTTTTTTTT"; //Your Write API Key
 
 
 // Callback (registered below) fired when a pulse is detected
